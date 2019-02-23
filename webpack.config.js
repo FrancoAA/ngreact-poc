@@ -7,7 +7,7 @@ const pkg = require('./package.json');
 const outputFile = 'app.js'
 
 const config = {
-  mode: 'production',
+  mode: 'development',
   entry: __dirname + '/src/index.js',
   // devtool: 'inline-source-map',
   output: {
